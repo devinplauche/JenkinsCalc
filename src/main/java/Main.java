@@ -21,7 +21,7 @@ public class Main {
       } else if (input.equals("multiply")) {
         System.out.println(calculator.multiply(in.nextInt(), in.nextInt()));
       } else if (input.equals("divide")) {
-        System.out.println(calculator.multiply(in.nextInt(), in.nextInt()));
+        System.out.println(calculator.divide(in.nextInt(), in.nextInt()));
       } else if (input.equals("quit")) {
         return;
       }
