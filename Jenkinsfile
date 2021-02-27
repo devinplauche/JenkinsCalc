@@ -1,10 +1,10 @@
 pipeline {
-    agent any
     environment {
         registry = "bytedroid/jenkinscalc204"
         registryCredential = 'dockerhub'
         dockerImage=''
     }
+    agent any
     tools {
         maven 'apache maven 3.6.3'
         jdk 'JDK 8'
@@ -73,6 +73,6 @@ pipeline {
             mail to:'devinplauche@gmail.com',
             subject:"Failed Pipeline: ${currentBuild.fullDisplayName}",
             body: "Something is wrong with ${env.BUILD_URL}"
-,        }
+        }
     }
 }
