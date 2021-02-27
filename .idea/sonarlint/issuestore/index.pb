@@ -9,3 +9,6 @@ Y
 )src/test/java/CalculatorTestThorough.java,4/f/4f2f0e9d08fa39631de932ce8637d0970254aa7f
 M
 src/main/java/Calculator.java,9/0/90877c721c4ed22cafdaaa54f21e2941f52e72d5
+:
+
+Dockerfile,6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4
